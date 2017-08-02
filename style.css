@@ -1,0 +1,321 @@
+.container{
+	width: 80%;
+	/*height: 500px;*/
+	margin-top: 20px;
+}
+
+.info-panel{
+	background: white;
+	/*height: 100%;*/
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+	border-radius: 2px;
+	border-radius: 3px;
+}
+
+.info-panel-cover{
+	height: 35%;
+	background: white;
+	border-radius: 3px;
+	background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.info-panel-ava{
+	height: 100px;
+    width: 100px;
+    background: white;
+    margin: 0 auto;
+    margin-top: -50px;
+    background-image: url(gap.jpg);
+	background-size: cover;
+	border-radius: 50px;
+	border: 2px solid white;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+}
+
+.font-weight-300{
+	font-weight: 300;
+}
+
+.font-weight-400{
+	font-weight: 400;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.info-panel-location{
+	margin-top: 20px;
+}
+
+.glyphicon-map-marker{
+	color: #1976D2;
+}
+
+.info-panel-content{
+	border-bottom: 1px solid #CFD8DC;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info-panel-summary{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+.panel{
+    background: white;
+    border-radius: 3px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+	margin-bottom: 40px;
+}
+
+.custom-container{
+	width: 96%;
+	margin: 0 auto;
+	
+}
+
+.education-container{
+	border-top: 1px solid #e0e0e0;
+}
+
+.panel-header{
+	padding-top: 15px;
+}
+
+.experiences, .educations{
+	margin: 0 auto;
+	width: 94%;
+}
+
+.educations{
+	margin-bottom: 20px;
+}
+
+.logo-company{
+	background: grey;
+	height: 72px;
+	width: 72px;
+	background-image: url(cmc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.job-detail{
+	/*background: blue;*/
+	/*height: 20px;*/
+	padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.job-detail-mission{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #616161;
+}
+
+.job-detail-mission p{
+	margin-bottom: 2px;
+}
+
+.job-detail-media{
+	margin-top: 20px;
+}
+
+.media-item{
+	height: 240px;
+	background: white;
+	border-radius: 2px;
+	box-shadow:  0 2px 5px 0 rgba(0,0,0,0.06), 0 2px 5px 0 rgba(0,0,0,0.03);
+	margin-bottom: 15px;
+}
+
+.media-item-image{
+	height: 80%;
+	background: grey;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+    background-image: url(cmc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.media-item-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-weight: 500;
+}
+
+.skills{
+	padding-bottom:10px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.skills-item{
+	height: 40px;
+	/*background: red;*/
+	margin-bottom: 40px;
+	margin-left: 10%;
+}
+
+.skills-item-content{
+	width: 60%;
+    border: 1px solid #b0bec5;
+    display: block;
+    height: 100%;
+    /*margin: 0 auto;*/
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.skill-name{
+	font-weight: 600;
+}
+
+.show-less{
+    padding: 10px;
+}
+
+.show-less p {
+	margin-bottom: 0px;
+}
+
+.show-less{
+	padding: 15px;
+}
+
+.job-detail-last-child{
+	border: none;
+}
+
+.card-2-image{
+	height: 72px;
+	width: 72px;
+	background: #e0e0e0;
+	border-radius: 36px;
+	background-image: url(book.svg);
+}
+
+.skills-item-percent{
+	width: 60%;
+	background: #b0bec5;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.width-50{
+	width: 50%;
+}
+
+.width-80{
+	width: 70%;
+}
+
+.width-30{
+	width: 30%;
+}
+
+.width-100{
+	width: 100%;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.no-padding p{
+	color: #616161;
+}
+
+.skills-item-content{
+
+}
+
+.education-item{
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1300px){
+	.logo-company{
+		height: 60px;
+		width: 60px;
+		margin-top: 10px;
+	}
+}
+
+
+@media screen and (max-width: 1024px){
+	.container{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.container{
+		width: 94%;
+	}
+
+	.logo-company{
+		height: 50px;
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 766px){
+	.logo-company{
+		height: 80px;
+		width: 80px;
+	}
+
+	.media-item{
+		width: 80%;
+	}
+
+	.container{
+		width: 96%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.skills-item-content{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.info-panel-cover{
+		height: 25%;
+	}
+
+	.media-item{
+		width: 100%;
+	}
+
+	.card-2-title{
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.card-2-title{
+		margin-left: 15%;
+	}
+}
+
+
+
+
+
+
+
+
